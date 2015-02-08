@@ -1,0 +1,170 @@
+/*
+=================================================
+CSS Reset
+=================================================
+*/
+/*http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+=================================================
+Custom Styles
+=================================================
+*/
+body {
+    background-color: #E2D6B5;
+    font-family: Arial, Verdana;
+    color: #414142;
+}
+
+/*
+=================================================
+Page Layout
+=================================================
+*/
+
+nav {
+    width: 20%;
+    float:left;
+    margin-top: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+article {
+    Width: 80%;
+    float: right;
+    margin-top: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*
+=================================================
+Navigation
+=================================================
+*/
+
+nav ul {
+    padding-left: 3em;
+}
+
+a:hover {
+    color: #414142;
+}
+
+ul li {
+    margin:5px;
+}
+
+.info {
+    width:600px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1000px;
+    margin: 2em auto;
+}
+
+img {
+    display: block;
+    margin:auto;
+}
+
+header p {
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.property-display {
+
+    width:400px;
+    margin: 2em auto;
+}
+
+p.block {
+    width: 4em;
+    height: 4em;
+    margin: .5em auto;
+    padding: 1em;
+    background-color: #66C2A3;
+    text-align: center;
+    line-height: 4em;
+}
+
+p.inline {
+    width: 4em;
+    height: 4em;
+    margin: .5em auto;
+    background-color: #FCBD2B;
+    display: inline;
+    padding: 1em;
+    text-align: center;
+}
+
+p.none {
+    display: none;
+}
+
+a {
+    color: #66C2A3;
+}
+
+h1 {
+    font-style: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: .5em;
+}

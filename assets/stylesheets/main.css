@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,6 +22,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -130,6 +130,22 @@ em {
 
 /*
 ==================================================
+Leads
+==================================================
+*/
+
+.lead {
+    text-align: center;
+}
+
+.lead p {
+    font-size: 21px;
+    line-height: 33px;
+}
+
+
+/*
+==================================================
 Links
 ==================================================
 */
@@ -208,6 +224,13 @@ Home
     font-weight: 100;
  }
 
+.teaser img {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
+
 /*
 ===================================================
 Clearfix
@@ -221,6 +244,11 @@ Clearfix
 }
 
 .group:after {
+    clear: both;
+    *zoom: 1;
+}
+
+.group {
     clear: both;
     *zoom: 1;
 }
@@ -243,9 +271,9 @@ Rows
 
 .row-alt {
     background: #cbe2c1;
-    background: -webkit-linear-gradient(to right, #ald3b0, f6f1d3);
-    background: -moz-linear-gradient(to right, #ald3b0, f6f1d3);
-    background: linear-gradient(to right, #ald3b0, f6f1d3);
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
     padding: 44px 0 22px 0;
 }
 
@@ -345,6 +373,59 @@ Navigation
 
 .nav {
     text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+
+/*
+===================================================
+Speakers
+===================================================
+*/
+
+.speaker-info {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+
+.speaker {
+    margin-bottom: 44px;
+}
+
+.speaker-info img {
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+}
+
+/*
+  ========================================
+  Venue
+  ========================================
+*/
+
+.venue-theatre {
+    margin-bottom: 66px;
+}
+.venue-hotel {
+    margin-bottom: 22px;
+}
+
+.venue-map {
+    height: 264px;
 }
 
 

@@ -7,13 +7,33 @@
         header, section, aside, footer {
             background-color: lightgray;
             color: #666666;
-            font-family: arial;
-            Font-size: 1em;
+
+        }
+
+        .group:before,
+        .group:after {
+            content: "";
+            display: table;
+        }
+
+        .group:after {
+            clear: both;
+        }
+
+        .group {
+            clear: both;
+            *zoom: 1;
         }
 
         section {
-            display: inline-block;
+           float: left;
             margin: 0 1.5%;
+            width: 63%;
+        }
+
+        aside {
+            float: right;
+            margin: 0 21.5%;
             width: 30%;
         }
 
@@ -22,10 +42,10 @@
 
 <body>
     <header>&lt;Header&gt;</header>
-    <section>&lt;Section&gt;</section><!--
-    --><section>&lt;Section&gt;
-    </section><section>&lt;Section&gt;
-    </section><!---->
+    <div class="group">
+    <section>&lt;Section&gt;</section>
+    <aside>&lt;Section&gt;</aside>
+    </div>
     <footer>&lt;Footer&gt;</footer>
 </body>
 </html>
