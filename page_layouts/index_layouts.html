@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>CSS Page Layouts</title>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -10,13 +11,16 @@
 <div id="wrapper">
     <header>
 
-        <img src="images/logo.png"/>
-
+        <div id="logo">
+            <a href="index_layouts.html"><img
+                    src="images/logo.png"/><span>Learn CSS
+                Layout</span></a>
+        </div>
     </header>
-    <nav>
+    <div id="content">
+    <nav id="toc">
         <ul>
-            <a href="#"><li>Contents</li></a>
-            <a href="#"><li>No Layout</li></a>
+            <a href="no_layout.html"><li>No Layout</li></a>
             <a href="#"><li>Margin:auto</li></a>
             <a href="#"><li>Max-Width</li></a>
             <a href="#"><li>The Box Model</li></a>
@@ -37,35 +41,9 @@
         </ul>
     </nav>
 
-    <article>
-
-    <div class="info">
-
-    <h1>The <em>"display"</em> property</h1>
-        <p>Display is CSS's most important property for controlling layout. Every
-        element has a default display value depending on what type of element it is. The default for most elements is usually block or inline. A block element is often called a block-level element. An inline element is always just called an inline element.</p>
-
     </div>
 
-    <div class="property-display">
 
-        <p class="block">block</p>
-        <p class="block">block</p>
-        <p class="block">block</p>
-
-    </div>
-
-    <div class="property-display">
-
-        <div></div><p class="inline">inline</p>
-        <p class="inline">inline</p>
-        <p class="inline">inline</p>
-
-    </div>
-
-    <p class="none">none</p>
-
-    </article>
     <footer>
         <small>This is a class exercise for the CIT-85 class.
         The images and information are sourced from

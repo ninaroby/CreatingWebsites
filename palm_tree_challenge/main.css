@@ -1,0 +1,35 @@
+body {
+    background-color: RGBA(0,0,0, .5);
+}
+
+.test {
+    background-color: RGBA(0,0,0, .5);
+    width: 364px;
+    height: 364px;
+}
+
+.container {
+    background: url("palmtree.png") no-repeat;
+    position: relative;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+p {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: darkgrey;
+    letter-spacing: .25em;
+    width:366px;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    bottom: 0;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -150px;
+}

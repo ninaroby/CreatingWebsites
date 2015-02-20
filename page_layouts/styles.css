@@ -58,7 +58,7 @@ Custom Styles
 =================================================
 */
 body {
-    background-color: #E2D6B5;
+    background-color: #EDEDED;
     font-family: Arial, Verdana;
     color: #414142;
 }
@@ -69,102 +69,120 @@ Page Layout
 =================================================
 */
 
-nav {
-    width: 20%;
-    float:left;
-    margin-top: 1em;
+#content {
+    Width: 100%;
+    padding-top: 1em;
+    /*height:800px;*/
+    margin:auto;
+    background-color: whitesmoke;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-article {
-    Width: 80%;
-    float: right;
-    margin-top: 1em;
+nav {
+    width: 300px;
+    margin: auto;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+footer {
+   height: 50px;
+   /*clear:both;*/
+   bottom: 0;
+}
+
+/*
+=================================================
+Header
+=================================================
+*/
+
+#logo  {
+    text-align: center;
+    background-color: #ededed;
+    padding: 1em 0;
+}
+
+#logo span {
+    vertical-align: middle;
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    margin-left: .2em;
+}
+
+#logo img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #414142;
+    position: relative;
+}
+
+/*
+=================================================
+Navigation - Table of Contents
+=================================================
+*/
+
+ul a li {
+    margin-bottom: .5em;
+    padding: 6px;
+    background-color: rgba(214, 64, 120, .5);
+    border-radius: 4px;
+    transition: background-color 250ms ease-in-out;
+}
+
+ul a {
+    text-decoration: none;
+    color: #414142;
+    text-align: center;
+
+}
+
+a:hover li {
+    background-color: rgba(214, 64, 120, .75);
 }
 
 
 /*
 =================================================
-Navigation
+Footer Styles
 =================================================
 */
 
-nav ul {
-    padding-left: 3em;
+
+footer small {
+    color:gray;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 1.5em;
+    margin-top: 10px;
 }
 
-a:hover {
+small a {
     color: #414142;
+    margin-left: 2px;
+    line-height: 50px;
+    transition: color 150ms ease-in-out;
 }
 
-ul li {
-    margin:5px;
+small a:hover {
+    color: #4F927F;
 }
 
-.info {
-    width:600px;
-    margin: 0 auto;
-}
+/*
+=================================================
+No Layout Styles
+=================================================
+*/
 
-header {
-    width: 1000px;
-    margin: 2em auto;
-}
-
-img {
-    display: block;
-    margin:auto;
-}
-
-header p {
-    margin: auto;
-    text-align: center;
-    margin-top: 5px;
-}
-
-
-.property-display {
-
-    width:400px;
-    margin: 2em auto;
-}
-
-p.block {
-    width: 4em;
-    height: 4em;
-    margin: .5em auto;
+#no-layout p {
+    background-color: whitesmoke;
     padding: 1em;
-    background-color: #66C2A3;
-    text-align: center;
-    line-height: 4em;
-}
-
-p.inline {
-    width: 4em;
-    height: 4em;
-    margin: .5em auto;
-    background-color: #FCBD2B;
-    display: inline;
-    padding: 1em;
-    text-align: center;
-}
-
-p.none {
-    display: none;
-}
-
-a {
-    color: #66C2A3;
-}
-
-h1 {
-    font-style: bold;
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: .5em;
 }
