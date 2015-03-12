@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CSS Page Layouts</title>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div>
+    <header>
+
+        <div id="logo">
+            <a href="index_layouts.html"><img
+                    src="images/logo.png"/><span>Learn CSS
+                Layout</span></a>
+        </div>
+    </header>
+
+    <section id="col">
+
+        <h2>The Box Model</h2>
+
+        <p>The problem with the box model is that when you add padding and
+            border to an element, it increases the width and height in addition
+            to the specified width and height.  This can be a pain when you
+            have complicated layouts with lots of elements to take into
+            consideration.</p>
+
+        <div class="box">This div is 200px wide and 100px high.  There is no
+            padding or border applied, which doesn't look great,
+            but the element maintains its specified dimensions.</div>
+
+        <div class="fancy_box">This div also has a 200px
+            width and 100px height applied, but there is a 1px border and 20px of
+            padding, making the div 242px wide and 142px high.</div>
+
+    </section>
+
+
+    <footer>
+        <small>This is a class exercise for the CIT-85 class.
+        The images and information are sourced from
+            <a href="http://learnlayout.com">Learn
+                CSS Layout at learnlayout.com</a></small>
+    </footer>
+</div><!--wrapper-->
+
+</body>
+</html>

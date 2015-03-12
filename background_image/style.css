@@ -1,0 +1,113 @@
+/** {
+	overflow:hidden;
+}
+body {
+	background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('http://www.allaboutdrawings.com/image-files/palm-tree-drawings.jpg') center center fixed no-repeat;
+}
+div {
+	font:245% 'Helvetica Neue', Sans-Serif;
+	position:absolute;
+	bottom:0;
+	padding-bottom:14%;
+	text-align:center;
+	width:100%;
+}*/
+
+@charset 'utf-8';
+
+* {
+	box-sizing:border-box;
+	font:300 100% 'Helvetica Neue', Sans-Serif;
+}
+body {
+	margin:0;
+}
+header {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	/*padding-top:10px;
+	min-height:15px;
+	min-width:100%;*/
+}
+a {
+	text-decoration:none;
+}
+ul {
+	display:flex;
+	flex-direction:row;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+li {
+	margin:0;
+}
+nav a, #name {
+	padding:2em 3em;
+}
+
+nav a:hover {
+	background:#999;
+	color:#fff;
+}
+
+section {
+	width:100%;
+}
+#image {
+	background:url('http://www.bluespannetworks.com/sites/all/themes/paradise/images/professional_services_IT.jpg') center center no-repeat;
+	background-size:cover;
+	min-height:650px;
+	width:100%;
+	position:relative;
+}
+#imageTextOverlay {
+	position:absolute;
+	font-size:3vw;
+	width:100%;
+	color:#fff;
+	text-shadow:0 0 3px #000;
+	text-align:center;
+	top:35%;
+}
+#imageTextOverlay span {
+	display:block;
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	nav a, #name {
+		padding:2em 3em;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	nav a, #name {
+		padding:2em 1em;
+	}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+	nav a, #name {
+		padding:2em 0.3em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

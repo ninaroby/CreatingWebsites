@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>The Position Property</title>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div>
+    <header>
+
+        <div id="logo">
+            <a href="index_layouts.html"><img
+                    src="images/logo.png"/><span>Learn CSS
+                Layout</span></a>
+        </div>
+    </header>
+
+    <section id="col">
+
+        <h2>Position</h2>
+
+        <p>The position property is important to understand, if you are going
+            to create effective page layouts.  There are 4 properties that
+            you should understand well.
+         </p>
+
+        <ul>
+            <li>Static</li>
+            <li>Relative</li>
+            <li>Fixed</li>
+            <li>Absolute</li>
+        </ul>
+
+        <h2>Static</h2>
+        <div class="static">Static is the default value for positioning.  If
+            you don't position an element it is "static" and therefore "not
+            positioned"
+        </div>
+        <h2>Relative</h2>
+        <div class="relative">When you set an element with the  position of
+            relative, it will be relative to it's own natural place in the
+            document:"relative to itself".  So this div is set to
+            position:relative<br>
+            top:10px<br>
+            left:10px<br>
+            This means that it will display 10px down and 10px left from
+            where it would be in the document flow.
+        </div>
+
+        <h2>Fixed</h2>
+        <div>This is a tricky one for use on the mobile
+            platform.  Essentially, if you position an element as fixed, it
+            will stick to the screen window in that position.  The element
+            stuck to the bottom, right of the screen is 'position: fixed' and no
+            matter how much you scroll, it will remain there!
+        </div>
+
+        <div class="fixed">
+            Hi, there, I am fixed here!
+            Still here!
+        </div>
+
+        <h2>Absolute</h2>
+        <div class="positioned">
+            <p class="bottom">The box on the right is set to an absolute
+                position of:<br>
+                top:-10px<br>
+                right:15px</p>
+        <div class="absolute">This is where you can control the exact
+            position of an element, relative to the nearest positioned
+            element.<br>
+        </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <small>This is a class exercise for the CIT-85 class.
+        The images and information are sourced from
+            <a href="http://learnlayout.com">Learn
+                CSS Layout at learnlayout.com</a></small>
+    </footer>
+</div><!--wrapper-->
+
+</body>
+</html>

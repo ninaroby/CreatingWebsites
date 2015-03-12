@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Floats</title>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div>
+    <header>
+
+        <div id="logo">
+            <a href="index_layouts.html"><img
+                    src="images/logo.png"/><span>Learn CSS
+                Layout</span></a>
+        </div>
+    </header>
+    <div id="content">
+
+        <h2>Clearing a div</h2>
+        <div class="floating_box">
+            <p>Hi there, I am a floating div</p>
+        </div>
+        <section>In this case, the section element is actually
+            after the div. However, since the div is floated to the left, this is what happens: the text in the section is floated around the div and the section surrounds the whole thing. What if we wanted the section to actually appear after the floated element?</section>
+
+        <br>
+
+        <div class="floating_box">
+            <p>Hi there, I am a floating div too!</p>
+        </div>
+        <section class="clear">Using clear we have now moved this section down below the floated div. You use the value left to clear elements floated to the left. You can also clear right and both.</section>
+    </div>
+    <footer>
+        <small>This is a class exercise for the CIT-85 class.
+        The images and information are sourced from
+            <a href="http://learnlayout.com">Learn
+                CSS Layout at learnlayout.com</a></small>
+    </footer>
+</div><!--wrapper-->
+
+</body>
+</html>

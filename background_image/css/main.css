@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+
+    display: flex;
+    display: webkit-flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+}
+
+li {
+    padding: 1em 0 1em 2em;
+}
+
+/*Greater than 600px*/
+@media all and (min-width: 100%) {
+    body {
+    }
+}
+
+/*Greater than 800px*/
+@media all and (min-width: 100%) {
+    body {
+    }
+}
+
+header {
+    background-color: lightgrey;
+}
+
+/*div, nav, ul, li {*/
+    /*border: 2px solid deeppink;*/
+/*}*/
+
+#image {
+    width:100%;
+    height: 400px;
+    background: url("https://github.com/GoesToEleven/my_websites/blob/master/fresno%20radon%20mitigation/assets/images/fam_blur.jpg?raw=true") center center no-repeat;
+    background-size: cover;
+}
+
+#imageTextOverlay {
+    position:absolute;
+    font-size:3vw;
+    width:100%;
+    color:#fff;
+    text-shadow:0 0 3px #000;
+    text-align:center;
+    top:35%;
+}

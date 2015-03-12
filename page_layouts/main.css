@@ -1,0 +1,645 @@
+/*
+=================================================
+CSS Reset
+=================================================
+*/
+/*http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+=================================================
+Custom Styles
+=================================================
+*/
+body {
+    background-color: #EDEDED;
+    font-family: Arial, Verdana;
+    color: #414142;
+}
+
+/*
+=================================================
+Page Layout
+=================================================
+*/
+
+#content {
+    Width: 100%;
+    padding: 1em;
+    margin:auto;
+    background-color: whitesmoke;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 300px;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer {
+    width:100%;
+    height:25px;
+    /*position: absolute;*/
+    bottom: 0;
+    margin-bottom: 1.5em;
+}
+
+/*
+=================================================
+Header
+=================================================
+*/
+
+header {
+    margin-top: 1em;
+}
+
+#logo  {
+    text-align: center;
+    background-color: #ededed;
+    padding: 1em 0;
+}
+
+#logo span {
+    vertical-align: middle;
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    margin-left: .2em;
+}
+
+#logo img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #414142;
+    position: relative;
+}
+
+/*
+=================================================
+Navigation - Table of Contents
+=================================================
+*/
+
+ul a li {
+    margin-bottom: .5em;
+    padding: 6px;
+    background-color: rgba(214, 64, 120, .5);
+    border-radius: 4px;
+    transition: background-color 250ms ease-in-out;
+}
+
+ul a {
+    text-decoration: none;
+    color: #414142;
+    text-align: center;
+
+}
+
+a:hover li {
+    background-color: rgba(214, 64, 120, .75);
+}
+
+
+/*
+=================================================
+Footer Styles
+=================================================
+*/
+
+footer small {
+    color:gray;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 1.5em;
+    margin-top: 10px;
+}
+
+small a {
+    color: #414142;
+    margin-left: 2px;
+    line-height: 50px;
+    transition: color 150ms ease-in-out;
+}
+
+small a:hover {
+    color: #4F927F;
+}
+
+/*
+=================================================
+No Layout Styles
+=================================================
+*/
+
+#no-layout p {
+    background-color: whitesmoke;
+    padding: 1em;
+}
+
+/*
+=================================================
+Display Styles
+=================================================
+*/
+
+#wrapper {
+    width:65%;
+    margin:auto;
+}
+
+p, ul {
+   margin-bottom: .5em;
+}
+
+P:first-child {
+    margin-top: 2em;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.25em;
+    font-style: bold;
+    margin: 1.5em 0 .5em 0;
+}
+
+#wrapper li {
+    list-style: circle;
+    margin-left: 2em;
+}
+
+em {
+    font-style: italic;
+    color:hotpink;
+    font-size: .95em;
+    font-style: bold;
+}
+
+/*
+=================================================
+Margin:Auto
+=================================================
+*/
+
+#col {
+    width:50%;
+    max-width: 600px;
+    margin:auto;
+}
+
+section p {
+    margin-bottom: 1.5em;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.25em;
+}
+
+section a {
+    color: #414142;
+    transition: color 150ms ease-in-out;
+}
+
+section a:hover {
+    color: #4F927F;
+}
+
+/*
+=================================================
+The Box Model
+=================================================
+*/
+
+.box {
+    width: 200px;
+    height:100px;
+    background-color:lightgray;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.fancy_box {
+    width: 200px;
+    height:100px;
+    background-color:lightgray;
+    margin: auto;
+    text-align: left;
+    border: 1px solid dimgray;
+    padding: 20px;
+}
+
+/*
+=================================================
+Border Box
+=================================================
+*/
+
+.box-sizing {
+    width: 200px;
+    height:100px;
+    background-color:lightgray;
+    margin: auto;
+    text-align: left;
+    border: 1px solid dimgray;
+    padding: 20px;
+    font-size: .5em;
+    margin-top: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+=================================================
+Positioning
+=================================================
+*/
+
+.relative {
+    background-color: lightgrey;
+    border: 1px solid darkgray;
+    padding: 1em;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+
+.fixed {
+    width:200px;
+    background-color: lightgrey;
+    border: 1px solid darkgray;
+    padding: 1em;
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
+.positioned {
+    background-color: lightgrey;
+    border: 1px solid darkgray;
+    padding: 1em;
+    position: relative;
+    height:200px;
+}
+
+.absolute {
+    background-color: darkgrey;
+    border: 1px solid darkgray;
+    padding: 1em;
+    width:150px;
+    position: absolute;
+    top: -10px;
+    right:15px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 5px;
+}
+
+/*
+=================================================
+Positioning
+=================================================
+*/
+
+.page {
+    width: 90%;
+    margin:auto;
+    position: relative;
+    background-color: lightgrey;
+    margin-top: 2em;
+}
+
+nav.pgl {
+    background-color: pink;
+    border: 1px solid darkgray;
+    position: absolute;
+    left: 0px;
+    width: 200px;
+}
+section.pgl {
+    /* position is static by default */
+    margin-left: 200px;
+    border: 1px solid darkgray;
+    padding: 1em;
+}
+footer.pgl {
+    width:100%;
+    height:100px;
+    background-color: palegoldenrod;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    padding: .5em;
+}
+body {
+    margin-bottom: 120px;
+}
+
+.pgl ul li {
+    margin: 1em;
+}
+
+.pgl ul li:hover {
+    color: darkcyan;
+}
+
+/*
+=================================================
+Float
+=================================================
+*/
+
+.float {
+    max-width: 600px;
+    margin: auto;
+    padding: .5em;
+}
+
+.float img {
+    width:150px;
+    float: right;
+    padding: .5em;
+}
+
+.float p {
+    line-height: 1.5em;
+}
+
+/*
+=================================================
+Clear
+=================================================
+*/
+
+.floating_box {
+    width: 250px;
+    height:100px;
+    border: 1px solid darkgray;
+    padding:.5em;
+    float: left;
+    margin: 1em;
+}
+
+.clear {
+    border: 1px solid lightgray;
+    padding: 1em;
+    clear: left;
+}
+
+/*
+=================================================
+Clearfix
+=================================================
+*/
+
+.elem {
+    border: solid #6AC5AC 3px;
+    position: relative;
+    padding: .5em;
+}
+
+.img-float {
+    float: right;
+}
+
+.clear-fix {
+    border: solid #6AC5AC 3px;
+    position: relative;
+    overflow: hidden;
+    padding: .5em;
+}
+
+.divide {
+    width: 200px;
+    height:400px;
+    background-color: transparent;
+}
+
+/*
+=================================================
+Float Layout
+=================================================
+*/
+
+.page-float {
+    width: 90%;
+    margin:auto;
+    position: relative;
+    background-color: lightgrey;
+}
+
+nav.pgl-float {
+    background-color: pink;
+    border: 1px solid darkgray;
+    float:left;
+    width: 200px;
+}
+section.pgl-float {
+    /* position is static by default */
+    margin-left: 200px;
+    border: 1px solid darkgray;
+    padding: 1em;
+}
+
+body {
+    margin-bottom: 120px;
+}
+
+.pgl-float ul li {
+    margin: 1em;
+}
+
+.pgl-float ul li:hover {
+    color: darkcyan;
+}
+
+/*
+=================================================
+Percent Width
+=================================================
+*/
+
+.percent {
+    max-width: 600px;
+    min-width: 100px;
+    margin: auto;
+}
+
+.percent img {
+    float: right;
+    width: 50%;
+    }
+
+.percent p {
+    float: left;
+    width: 50%;
+}
+
+/*
+=================================================
+Percent Width
+=================================================
+*/
+
+@media screen and (min-width:600px) {
+
+
+    nav.pgl-float {
+        float: left;
+        width: 25%;
+    }
+    section.pgl-float {
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:599px) {
+    nav.pgl-float li {
+        display: block;
+    }
+
+    nav.pgl-float {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    section.pgl-float{
+        margin-left: 0;
+    }
+}
+
+/*
+=================================================
+Inline Block
+=================================================
+*/
+
+.box2 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    text-align: center;
+}
+
+#breath {
+    padding: 1.5em;
+}
+
+/*
+=================================================
+Column
+=================================================
+*/
+
+.three-column {
+    width: 600px;
+    background-color: lightgray;
+    margin: auto;
+    padding: 1em;
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+    column-count: 3;
+    column-gap: 1em;
+}
+
+.three-column p {
+    line-height: 1.5em;
+}
+
+/*
+=================================================
+Flex-Box
+=================================================
+*/
+
+.flex_container {
+  display: -webkit-flex;
+  display: flex;
+}
+.nav_flex {
+  width: 150px;
+  float: left;
+/*
+  background-color: pink;
+  border: 1px solid darkgray;
+*/
+}
+
+.nav_flex li {
+      margin: 1em;
+}
+.flex_item {
+  -webkit-flex: 1;
+          flex: 1;
+    padding: 1em;
+}
+
+
+
+
+

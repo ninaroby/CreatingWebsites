@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CSS Page Layouts</title>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div>
+    <header>
+
+        <div id="logo">
+            <a href="index_layouts.html"><img
+                    src="images/logo.png"/><span>Learn CSS
+                Layout</span></a>
+        </div>
+    </header>
+
+    <section id="col">
+
+        <h2>Box-Sizing</h2>
+
+        <p>The box-sizing property was introduced to avoid having to do all
+            the math involved with the box model.  Essentially,
+            by applying the box-sizing:border-box, you take the padding and
+            border out of the equation. Yeah!  The only caveat
+            is that, currently, this property is not supported in all
+            browsers and so we must use the browser specific prefixes, to
+            avoid layout issues.
+         </p>
+
+
+        <div class="fancy_box">This div has a 200px
+            width and 100px height, a 1px border and 20px of
+            padding applied, making the div 242px wide and 142px high.
+        </div>
+
+        <div class="box-sizing">This div also has a 200px
+            width and 100px height, a 1px border and 20px of
+            padding, but the box-sizing:border-box means that is retains
+            its specified dimensions.</div>
+
+    </section>
+
+
+    <footer>
+        <small>This is a class exercise for the CIT-85 class.
+        The images and information are sourced from
+            <a href="http://learnlayout.com">Learn
+                CSS Layout at learnlayout.com</a></small>
+    </footer>
+</div><!--wrapper-->
+
+</body>
+</html>
