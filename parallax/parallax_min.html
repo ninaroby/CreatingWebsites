@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="en-us" http-equiv="content-language">
+    <meta charset="UTF-8">
+    <meta content="A high performance parallax scrolling example." name="description">
+    <meta content="Parallax Scrolling Example" name="title">
+    <style>
+    /*
+    ==================================================
+    CSS Reset
+    ==================================================
+    */
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            b, u, i, center,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, embed,
+            figure, figcaption, footer, header, hgroup,
+            menu, nav, output, ruby, section, summary,
+            time, mark, audio, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+    /*
+    ==================================================
+    Page Styles
+    ==================================================
+    */
+            body {
+                padding: 45px:
+                background-color: #010001;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 2em;
+                line-height: 1.6em;
+                padding: .8em 2em;
+                margin: auto;
+                text-align: justify;
+                color: #1E1B16;
+            }
+
+            a {
+                color: #AFD8F2;
+            }
+
+            h1, h2, h3 {
+                text-transform: capitalize;
+                font-family: "Franklin Gothic Medium", Arial "Arial Narrow",
+                Arial, sans-serif;
+                margin: 0px;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 40px;
+                padding: .5em;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            section {
+                background-color: rgba(165, 157, 149, .75);
+                padding-top: 4em;
+            }
+
+            #parallaxContainer {
+                left: 0;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: -1;
+            }
+
+            #parallaxContainer img {
+                width: 100%;
+                height: auto;
+            }
+
+            /*
+    =================================================
+    Styling Links
+    =================================================
+    */
+
+            nav {
+                text-transform: uppercase;
+                font-family: "Franklin Gothic Medium", Arial "Arial Narrow",
+                Arial, sans-serif;
+                width:100%;
+                height:2em;
+                background-color: rgba(255, 255, 255, 0.60);
+                border-bottom: 1px solid #bcbdc0;
+                padding:.5em;
+                position: fixed;
+            }
+
+            .nav ul {
+                float: right;
+            }
+
+            .nav li {
+                display: inline;
+                margin-right: 1.5em;
+                letter-spacing: 2px;
+                font-size: 1em;
+                line-height: 2em;
+            }
+
+            .nav a {
+                color: black;
+                margin-right: .5em;
+                transition: color 150ms ease-in-out;
+            }
+
+            .nav a:hover {
+                color: gray;
+            }
+
+            .nav a.current {
+                color: darkolivegreen;
+            }
+
+            a {
+                color: #648880;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #a9b2b9;
+            }
+
+    /*
+    =================================================
+    Media Queries - Less than 600px
+    =================================================
+    */
+
+
+    @media screen and (max-width: 900px) {
+
+        p {
+            font-size: 1.5em;
+        }
+    }
+
+    @media screen and (max-width: 518px) {
+
+        .nav {
+            height:auto;
+            position: fixed;
+            bottom:0;
+            border-top: 1px solid #bcbdc0;
+            font-size: smaller;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6em;
+            margin:  0 auto;
+        }
+
+        p:last-child {
+            margin-bottom: 3em;
+
+        }
+
+    }
+
+    </style>
+
+</head>
+<body>
+    <div id="parallaxContainer">
+        <img src="Noble.jpg"></img>
+    </div>
+    <header>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a class="current" href="#">Art</a></li>
+            <li><a href="#">Artists</a></li>
+            <li><a href="#">Exhibitions</a></li>
+
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <h1>Paul’s Place</h1>
+        <h2>Artist: Paul Noble</h2>
+        <h3>1996, Pencil on Paper (67” x 59”)</h3>
+        <p>I found “Paul’s Place” to be a beautiful and calming world in which I
+            found
+        myself meandering for some considerable time, while discovering new thoughts, ideas and further feelings of intrigue, amusement and wonder.</p>
+
+        <p>The piece describes, what appears to be, a huge and monumental sandcastle monopolizing a stretch of beach.  In the background I witness a large expanse of calm ocean water, small waves lapping up on the shore and a large and somewhat sinister looking rock-face, jutting out of the ocean.  To the right of the sandcastle, I see another huge pile of rocks, some of which appear to take on the shapes of human heads, and possibly parts of strange and unfamiliar creatures.  This can only be an imagined place.</p>
+
+        <p>The composition is quite beautiful: asymmetrical and yet well balanced.  The positive shapes of the large structure, the main focal point of the image, which is slightly off to the right of center, and the intriguing rock shapes, make up the majority of the drawing.   My eye travels from the large structure, right of center, to the pile of rocks on the right and then over and across the large expanse of sky to meet the dark and sinister rocks, to the back and far left of the space.</p>
+
+        <p>Shape, spatial Illusion and value are the three formal elements of art, which allow Noble to tell his story as effectively as he does in this drawing. There is a marked contrast between the geometric shapes of the main structure, so carefully put together by Noble’s imagination, and the more organic formations of the rocks, depicting his observations of a dark world far more twisted and threatening: the lighter values of his utopian castle and darker values of the rocks behind, are no accident either, as they reflect innocence versus evil.  His use of value not only creates a convincing expanse of ocean, a clear horizon and a hint of a threatening sky, but it also forms the shapes of the rocks and the mysterious spaces of this imagined place.   The spatial illusion is what intrigues and entertains the viewer.  Noble builds a three dimensional, geometric structure, which is deliberately ambiguous.  The depth and space are convincing, yet we are not sure where many of the pathways and tunnels will take us.</p>
+
+        <p>In “Paul’s Place”, I see a pure mind, absorbed in his creation of a perfect world and while death and destruction might loom and threaten, they are unable to penetrate. Like a child absorbed in the building of his sandcastle, Noble builds his own utopia, and ambiguity and light are his defenses against evil.</p>
+    </section>
+
+    <script src="http://www.kirupa.com/prefixfree.min.js"></script>
+    <script>
+        var requestAnimationFrame = window.requestAnimationFrame ||
+                                    window.mozRequestAnimationFrame ||
+                                    window.webkitRequestAnimationFrame ||
+                                    window.msRequestAnimationFrame;
+
+        var transforms = ["transform",
+                          "msTransform",
+                          "webkitTransform",
+                          "mozTransform",
+                          "oTransform"];
+        var transformProperty = getSupportedPropertyName(transforms);
+        var imageContainer = document.querySelector("#parallaxContainer");
+        var scrolling = false;
+        var mouseWheelActive = false;
+
+        var count = 0;
+        var mouseDelta = 0;
+
+        // Vendor Prefix Management
+
+        function getSupportedPropertyName(properties) {
+            for (var i = 0; i < properties.length; i++) {
+                if(typeof document.body.style[properties[i]] !="undefined") {
+                    return properties[i];
+                }
+            }
+            return null;
+        }
+
+        function setup() {
+            window.addEventListener("scroll", setScrolling, false);
+
+            //deal with mouse wheel
+            window.addEventListener("mousewheel", mouseScroll, false);
+            window.addEventListener("DOMMouseScroll", mouseScroll, false);
+
+            animationLoop();
+        }
+        setup();
+
+        function mouseScroll(e) {
+            mouseWheelActive = true;
+
+            //cancel the default scroll behavior
+            if (e.preventDefault) {
+                e.preventDefault();
+            }
+
+            //deal with different browsers calculating the delta differently
+            if (e.wheelDelta) {
+                mouseDelta = e.wheelDelta / 120;
+            } else if (e.detail) {
+                mouseDelta = -e.detail / 3;
+            }
+        }
+
+        //called when a scroll is detected
+        function setScrolling() {
+            scrolling = true;
+        }
+
+        //Cross-browser way to get the current scroll position
+        function getScrollPosition() {
+            if (document.documentElement.scrollTop == 0) {
+                return document.body.scrollTop;
+            } else {
+                return document.documentElement.scrollTop;
+            }
+        }
+
+        //A performant way to shift our image up and down
+        function setTranslate3DTransform(element, yPosition) {
+            var value = "translate3d(0px" + ", " + yPosition + "px" + ", 0)";
+            element.style[transformProperty] = value;
+        }
+
+        function animationLoop() {
+            //adjust the images position when scrolling
+            if (scrolling) {
+                setTranslate3DTransform(imageContainer, -1 * getScrollPosition()
+                        / 2);
+                scrolling = false;
+            }
+
+            //scroll up and down by 10 pixels when the mouse wheel is used
+            if (mouseWheelActive) {
+                window.scrollBy(0, -mouseDelta * 10);
+                count++;
+
+                //stop the scrolling after a few moments
+                if (count > 20) {
+                    count = 0;
+                    mouseWheelActive = false;
+                    mouseDelta = 0;
+                }
+            }
+
+            requestAnimationFrame(animationLoop);
+        }
+        </script>
+</body>
+</html>
