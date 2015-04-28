@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f3e6925-9854-4e69-ab32-18ca40810eac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parallax/parallax.html" afterPath="$PROJECT_DIR$/parallax/parallax.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parallax/parallax_min.html" afterPath="$PROJECT_DIR$/art_house/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CreatingWebsites.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="parallax.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parallax/parallax.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/art_house/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25677603" vertical-offset="3090" max-vertical-offset="5175">
-              <caret line="211" column="323" selection-start-line="211" selection-start-column="323" selection-end-line="211" selection-end-column="323" />
+            <state vertical-scroll-proportion="0.626935" vertical-offset="2970" max-vertical-offset="5130">
+              <caret line="225" column="31" selection-start-line="225" selection-start-column="31" selection-end-line="225" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -97,6 +98,7 @@
         <option value="$PROJECT_DIR$/Julians_hello/index3.html" />
         <option value="$PROJECT_DIR$/parallax/parallax_min.html" />
         <option value="$PROJECT_DIR$/parallax/parallax.html" />
+        <option value="$PROJECT_DIR$/art_house/index.html" />
       </list>
     </option>
   </component>
@@ -194,6 +196,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CreatingWebsites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CreatingWebsites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="art_house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -220,6 +236,7 @@
       <recent name="$PROJECT_DIR$/page_layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/art_house" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/background_image/css" />
       <recent name="$PROJECT_DIR$/page_layouts/images" />
@@ -302,7 +319,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32934132" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" x="10" y="293" width="1239" height="220" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22265625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22265625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5471448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -667,14 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parallax/parallax_min.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12838802" vertical-offset="0" max-vertical-offset="5175">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Julians_hello/index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8402282" vertical-offset="0" max-vertical-offset="1770">
@@ -695,6 +704,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25677603" vertical-offset="3090" max-vertical-offset="5175">
           <caret line="211" column="323" selection-start-line="211" selection-start-column="323" selection-end-line="211" selection-end-column="323" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art_house/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.626935" vertical-offset="2970" max-vertical-offset="5130">
+          <caret line="225" column="31" selection-start-line="225" selection-start-column="31" selection-end-line="225" selection-end-column="31" />
           <folding />
         </state>
       </provider>
